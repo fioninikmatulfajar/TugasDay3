@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".Aceh">
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="match_parent"
+        android:layout_height="271dp"
+        app:srcCompat="@drawable/acehh"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView19"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="?attr/colorOutline"
+        android:padding="10dp"
+        android:text="@string/ulee_balang"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textpembahasan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:textSize="18sp"
+            android:typeface="serif"
+            android:text="@string/busana_pengantin_aceh_ulee_balang_adalah_pakaian_tradisional_yang_dipakai_oleh_pengantin_perempuan_dalam_upacara_pernikahan_adat_aceh_terdiri_dari_kebaya_berwarna_cerah_dengan_hiasan_sulaman_emas_ulee_balang_berwarna_merah_yang_dipakai_di_atas_kebaya_serta_selendang_atau_selimut_dari_kain_songket" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView19"
+        android:layout_marginTop="270dp"
+        android:text="@string/share" />
+
+</RelativeLayout>

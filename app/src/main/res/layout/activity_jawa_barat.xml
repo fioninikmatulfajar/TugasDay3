@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".JawaBarat">
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="410dp"
+        android:layout_height="259dp"
+        app:srcCompat="@drawable/sunda"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView26"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="?attr/colorOutline"
+        android:padding="10dp"
+        android:text="@string/kebaya_sunda"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textpembahasan"
+            android:layout_marginTop="350dp"
+            android:textSize="15sp"
+            android:text="Busana pengantin kebaya Sunda adalah pakaian tradisional yang mempesona dan elegan, mewakili kebudayaan Sunda yang kaya. Untuk pengantin perempuan, busana terdiri dari kebaya yang sering dihiasi dengan hiasan sulaman atau payet yang indah, sering kali dengan warna-warna cerah seperti merah, kuning, atau hijau. Kebaya dipadukan dengan kain sarung atau kain batik sebagai bawahan, dan selendang dari kain songket atau tenun Sunda yang melengkapi penampilan. Pengantin perempuan juga biasanya mengenakan hiasan kepala seperti sanggul atau mahkota yang indah. Sementara itu, untuk pengantin pria, busana terdiri dari baju beskap atau kemeja dengan kain sarung yang dipadukan dengan blangkon atau peci sebagai penutup kepala"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView26"
+        android:layout_marginTop="376dp"
+        android:text="@string/share" />
+
+</RelativeLayout>

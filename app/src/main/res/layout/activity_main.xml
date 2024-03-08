@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvintent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/busana_pengantin_tradisional"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvintent"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="105dp"
+        android:layout_toEndOf="@id/imageView2"
+        android:backgroundTint="@color/material_dynamic_primary10"
+        android:text="@string/pulau_sumatra" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn1"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="140dp"
+        android:layout_toEndOf="@id/imageView4"
+        android:backgroundTint="@color/material_dynamic_primary10"
+        android:text="@string/pulau_jawa" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn2"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="154dp"
+        android:layout_toEndOf="@id/imageView5"
+        android:backgroundTint="@color/material_dynamic_primary10"
+        android:text="@string/pulau_kalimantan" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="144dp"
+        android:layout_height="174dp"
+        android:layout_below="@id/tvintent"
+        android:layout_marginTop="45dp"
+        app:srcCompat="@drawable/sumatraaa" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="147dp"
+        android:layout_height="177dp"
+        android:layout_below="@id/imageView2"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/jawaa" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="151dp"
+        android:layout_height="163dp"
+        android:layout_below="@id/imageView4"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/kalimantan" />
+
+
+</RelativeLayout>

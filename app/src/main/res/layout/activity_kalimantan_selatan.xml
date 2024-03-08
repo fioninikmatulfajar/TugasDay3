@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".KalimantanSelatan">
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="398dp"
+        android:layout_height="262dp"
+        app:srcCompat="@drawable/banjar"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView32"
+        android:layout_gravity="center"
+        android:background="?attr/colorOutline"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/adat_banjar"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textpembahasan"
+            android:textSize="15sp"
+            android:layout_marginTop="340dp"
+            android:text="Busana pengantin Kalimantan Selatan adat Banjar mencerminkan kekayaan budaya tradisional suku Banjar yang khas dan elegan. Bagi pengantin pria, busana terdiri dari baju bodo atau baju coklat yang terbuat dari kain songket atau tenun tradisional, sering kali dihiasi dengan motif-motif khas Banjar. Baju ini dipadukan dengan celana panjang atau kain sarung serta sorban atau ikat kepala yang disebut tengkolok yang merupakan simbol kehormatan dan status. Sementara itu, busana pengantin perempuan terdiri dari kebaya dengan bawahan kain sarung atau kain songket yang disebut sasirangan. Kebaya biasanya dihiasi dengan bordir atau sulaman yang indah, dengan warna-warna cerah atau lembut yang serasi dengan motif sasirangan. Pengantin perempuan juga memakai hiasan kepala seperti sanggul atau mahkota yang indah."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView32"
+        android:layout_marginTop="391dp"
+        android:text="@string/share" />
+
+</RelativeLayout>

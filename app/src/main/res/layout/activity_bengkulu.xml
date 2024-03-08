@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Bengkulu">
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="444dp"
+        android:layout_height="249dp"
+        app:srcCompat="@drawable/images"
+        tools:layout_editor_absoluteX="-15dp"
+        tools:layout_editor_absoluteY="16dp" />
+    <TextView
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView23"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="?attr/colorOutline"
+        android:padding="8dp"
+        android:text="@string/adat_mukomuko"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textpembahasan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="320dp"
+            android:text="Busana pengantin yang digunakan oleh pengantin laki-laki di Kabupaten Mukomuko terdiri dari baju betabur, kain songket dan celana. Busana pengantin yang digunakan oleh pengantin perempuan di Kabupaten Mukomuko terdiri dari baju betabur dan kain songket. Makna filosofi busana pengantin yang dipakai oleh pengantin laki-laki yaitu baju betabur melambangkan ketinggian peranan suami dalam rumah tangga, sedangkan celana melambangkan kegagahan dan keberanian suami dalam tanggung jawab. Songket benang emas melambangkan kesopanan dalam tingkah laku yang baik. Destar melambangkan batasan tingkah laku seorang bujang yang sudah beristri. Tusuk konde (bunga mata hari dan daun bambu) melambangkan untuk bersatu. Peding melambangkan kepandaian mengatur pengeluaran. Kilek-kilek burung melambangkan keselamatan." />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView23"
+        android:layout_marginTop="330dp"
+        android:text="@string/share" />
+
+</RelativeLayout>

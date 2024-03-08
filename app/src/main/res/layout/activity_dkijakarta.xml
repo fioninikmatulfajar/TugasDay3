@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".DKIJakarta">
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="411dp"
+        android:layout_height="301dp"
+        app:srcCompat="@drawable/betawi"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView27"
+        android:layout_gravity="center"
+        android:background="?attr/colorOutline"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/adat_betawi"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textpembahasan"
+            android:layout_marginTop="380dp"
+            android:text="Busana pengantin adat Betawi mencerminkan kekayaan budaya tradisional Jakarta dan sekitarnya. Bagi pengantin pria, busana terdiri dari baju jarit atau jarik yang merupakan pakaian tradisional Betawi berupa kain panjang yang dililitkan di tubuh, sering kali dengan motif batik atau songket. Atasan biasanya berupa kemeja dengan hiasan kain songket atau batik. Sementara itu, pengantin perempuan mengenakan kebaya dengan rok panjang yang disebut kutubaru, yang biasanya dihiasi dengan bordir atau sulaman yang indah. Kain sarung dengan motif tradisional Betawi juga sering dipakai sebagai pelengkap. Aksesoris seperti kalung, gelang, anting-anting, serta hiasan rambut tradisional Betawi seperti sanggul atau gandik juga turut melengkapi penampilan."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView27"
+        android:layout_marginTop="316dp"
+        android:text="@string/share" />
+
+</RelativeLayout>

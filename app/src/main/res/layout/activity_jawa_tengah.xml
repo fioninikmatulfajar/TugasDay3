@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JawaTengah">
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="420dp"
+        android:layout_height="313dp"
+        app:srcCompat="@drawable/basahan"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView21"
+        android:layout_gravity="center"
+        android:background="?attr/colorOutline"
+        android:padding="10dp"
+        android:text="@string/basahan"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textpembahasan"
+            android:layout_marginTop="390dp"
+            android:textSize="15sp"
+            android:text="Busana Basahan merupakan pakaian adat Jawa Tengah. Pakaian ini menjadi warisan budaya dari Kerajaan Mataram. Ciri khas busana Basahan adalah tidak adanya atasan yang menutup seluruh badan. Bagi mempelai pria, biasanya bertelanjang dada. Serta hanya mengenakan dodot yang menutupi pusar. Selain itu pengantin pria mengenakan kalung untuk menghiasi bagian dada. Tampilan mempelai pria akan dilengkapi dengan kuluk sebagai penutup kepala. Serta membawa keris sebagai lambang kekuatan. Mempelai wanita mengenakan kemben dengan bagian bahu dan dada atas terbuka. Sementara bagian bawahnya juga mengenakan dodot. Busana Basahan memiliki makna dan harapan. Yaitu agar mempelai dapat menjalani rumah tangga yang harmonis. Selain itu rumah tangga sejahtera, bahagia. Serta dapat berjalan selaras dengan alam."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView21"
+        android:layout_marginTop="360dp"
+        android:text="@string/share" />
+
+</RelativeLayout>

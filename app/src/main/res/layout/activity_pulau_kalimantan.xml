@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/colorOutline"
+    tools:context=".PulauKalimantan">
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="150dp"
+        android:layout_height="139dp"
+        android:layout_below="@id/btn3"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/imageView16"
+        app:srcCompat="@drawable/kalut" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="142dp"
+        android:layout_height="135dp"
+        android:layout_below="@id/btn5"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@drawable/kaltim" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:text="@string/kalimantan"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:typeface="monospace"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView17"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@id/btn2"
+        android:backgroundTint="@color/material_dynamic_neutral_variant20"
+        android:text="@string/kalimantan_utara" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/imageView16"
+        android:backgroundTint="@color/material_dynamic_neutral_variant20"
+        android:text="@string/kalimantan_timur" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@id/btn5"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@id/imageView12"
+        android:backgroundTint="@color/material_dynamic_neutral_variant20"
+        android:text="@string/kalimantan_selatan" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView18"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="-2dp"
+        android:backgroundTint="@color/material_dynamic_neutral_variant20"
+        android:text="@string/kalimantan_tengah" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/imageView11"
+        android:backgroundTint="@color/material_dynamic_neutral_variant20"
+        android:text="@string/kalimantan_barat" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="142dp"
+        android:layout_height="144dp"
+        android:layout_below="@id/text3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@drawable/kalbarat" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="143dp"
+        android:layout_below="@id/text3"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/imageView11"
+        app:srcCompat="@drawable/logo_kalimantan_selatan" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="176dp"
+        android:layout_height="185dp"
+        android:layout_below="@id/btn2"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="-1dp"
+        app:srcCompat="@drawable/kalte" />
+
+</RelativeLayout>

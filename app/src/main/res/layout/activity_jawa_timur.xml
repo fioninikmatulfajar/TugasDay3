@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JawaTimur">
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="426dp"
+        android:layout_height="312dp"
+        app:srcCompat="@drawable/manten"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView25"
+        android:layout_gravity="center"
+        android:background="?attr/colorOutline"
+        android:padding="10dp"
+        android:text="@string/mantenan"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textpembahasan"
+            android:layout_marginTop="385dp"
+            android:textSize="15sp"
+            android:text="Model pakaian ini dulunya sering dipakai oleh para raja Jawa kuno. Baju Mantenan untuk pria terbuat dari kain beludru hitam dan berupa beskap (jas resmi dalam tradisi Jawa Mataraman) yang bagian depan dan belakangnya tidak sama panjangnya. Beskap tersebut didominasi oleh motif berwarna emas yang terbuat dari kawat. Pada wanita, kemben merupakan pakaian yang pertama kali digunakan. Kemben sendiri merupakan kain yang digunakan untuk melilit tubuh wanita bagian dada dan perut. Setelah kemben, baru pakaian manten dikenakan untuk menutupi bagian tubuh yang masih terbuka. Baju Manten berbahan sama dengan pakaian pria namun motif yang dipilih terkesan lebih feminim. Untuk bawahan Baju Manten, baik pria maupun wanita, menggunakan jarik bermotif batik."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView25"
+        android:layout_marginTop="341dp"
+        android:text="@string/share" />
+
+</RelativeLayout>

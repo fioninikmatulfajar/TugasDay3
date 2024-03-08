@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".KalimantanUtara">
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="401dp"
+        android:layout_height="243dp"
+        app:srcCompat="@drawable/tidung"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView30"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="?attr/colorOutline"
+        android:padding="10dp"
+        android:text="@string/adat_tidung_antakusuma"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textpembahasan"
+            android:layout_marginTop="320dp"
+            android:textSize="15sp"
+            android:text="Busana pengantin adat Tidung Antakusuma, yang merupakan bagian dari budaya Kalimantan Utara, mencerminkan keindahan dan kekayaan tradisional suku Tidung. Untuk pengantin pria, busana terdiri dari pakaian tradisional yang disebut adat beras, terbuat dari kain tenun atau songket dengan motif-motif khas Tidung. Atasan biasanya disertai dengan blangkon atau peci yang terbuat dari bahan yang sama dengan pakaian. Sementara itu, busana pengantin perempuan terdiri dari tangguh, sebuah baju panjang yang dihiasi dengan hiasan sulaman, manik-manik, atau payet yang indah. Tangguh ini dipadukan dengan kain sarung atau kain songket yang melambangkan keanggunan dan keindahan tradisional."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView30"
+        android:layout_marginTop="331dp"
+        android:text="@string/share" />
+
+</RelativeLayout>

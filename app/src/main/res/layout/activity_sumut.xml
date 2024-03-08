@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Sumut">
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="match_parent"
+        android:layout_height="267dp"
+        app:srcCompat="@drawable/batak"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <TextView
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView20"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="?attr/colorOutline"
+        android:padding="10dp"
+        android:text="@string/adat_batak_toba"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textpembahasan"
+            android:layout_marginTop="340dp"
+            android:text="Busana pengantin adat Batak Toba adalah cerminan dari kekayaan budaya tradisional suku Batak Toba. Bagi pengantin pria, busana terdiri dari Ulos Batak Toba yang meliliti tubuh, disertai dengan sorban yang biasanya berwarna merah atau hitam. Sementara bagi pengantin perempuan, busana terdiri dari Ulos Ragidup yang dikenakan sebagai selendang atau selimut dengan warna dan motif khas. Wanita juga mengenakan baju kebaya atau pakaian tradisional Batak Toba yang disebut 'Sarung' yang dikenakan di bagian atas rok, serta kain ulos di pinggang yang disebut 'Sipatu' yang dililitkan ke tubuh."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView20"
+        android:layout_marginTop="273dp"
+        android:text="@string/share" />
+
+</RelativeLayout>

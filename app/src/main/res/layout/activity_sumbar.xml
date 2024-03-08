@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Sumbar">
+
+
+    <TextView
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView24"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="?attr/colorOutline"
+        android:padding="10dp"
+        android:text="@string/suntiang"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="wrap_content"
+        android:layout_height="308dp"
+        app:srcCompat="@drawable/sumbarrr" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textpembahasan"
+            android:layout_marginTop="390dp"
+            android:text="Suntiang berasal dari daerah Padang dan Pariaman. Pakaian ini biasanya berwarna merah menyala baik untuk mempelai pria atau perempuan wanita. Pakaian ini dilengkapi dengan hiasan serta penutup kepala agar pengantin memiliki aura yang megah, elegan, dan mewah. Tak heran, pakaian ini terinspirasi dari pakaian-pakaian Eropa dan Tiongkok di jamannya. Hiasan yang diletakkan di atas kepala pengantin wanita ini memiliki tingkatan lebih dari satu dan jumlahnya harus ganjil. Rata-rata masyarakat Minangkabau menggunakan suntiang 7 tingkat untuk hiasan kepala pengantin wanita, tapi ada pula yang lebih."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView24"
+        android:layout_marginTop="291dp"
+        android:text="@string/share" />
+
+</RelativeLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/colorOutline"
+    tools:context=".PulauJawa">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="136dp"
+        android:layout_height="127dp"
+        android:layout_below="@id/btn5"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="33dp"
+        app:srcCompat="@drawable/jt" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="141dp"
+        android:layout_height="135dp"
+        android:layout_below="@id/btn1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30sp"
+        app:srcCompat="@drawable/yogyaa" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/jawa"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/imageView9"
+        android:backgroundTint="@color/material_dynamic_neutral_variant20"
+        android:text="@string/provinsi_jawa_barat" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView14"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@id/btn5"
+        android:backgroundTint="@color/material_dynamic_neutral_variant20"
+        android:text="@string/provinsi_jawa_timur" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@id/imageView15"
+        android:backgroundTint="@color/material_dynamic_neutral_variant20"
+        android:text="@string/provinsi_jawa_tengah" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/btn1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/imageView10"
+        android:backgroundTint="@color/material_dynamic_neutral_variant20"
+        android:text="@string/provinsi_dki_jakarta" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/imageView13"
+        android:backgroundTint="@color/material_dynamic_neutral_variant20"
+        android:text="@string/provinsi_di_yogyakarta" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="141dp"
+        android:layout_height="132dp"
+        android:layout_below="@id/text2"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="25dp"
+        app:srcCompat="@drawable/jawabarat" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="136dp"
+        android:layout_height="130dp"
+        android:layout_below="@id/text2"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30sp"
+        android:layout_toEndOf="@id/imageView9"
+        app:srcCompat="@drawable/jakarta" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="157dp"
+        android:layout_height="139dp"
+        android:layout_below="@id/btn4"
+        android:layout_marginStart="59dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/imageView13"
+        app:srcCompat="@drawable/jatim" />
+
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KalimantanTimur">
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="416dp"
+        android:layout_height="268dp"
+        app:srcCompat="@drawable/takwo"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-6dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView29"
+        android:layout_gravity="center"
+        android:background="?attr/colorOutline"
+        android:padding="10dp"
+        android:text="@string/takwo"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textpembahasan"
+            android:layout_marginTop="340dp"
+            android:textSize="15sp"
+            android:text="Busana pengantin suku Dayak Kenyah dari Kalimantan Timur, khususnya dalam adat Takwo, merupakan pakaian tradisional yang kaya akan simbolisme dan keindahan budaya. Untuk pengantin pria, busana terdiri dari baju setawang yang terbuat dari kain tenun tradisional dengan motif khas suku Dayak Kenyah. Baju ini sering dihiasi dengan hiasan-hiasan seperti manik-manik, sulaman, atau bahkan hiasan dari bulu burung. Atasan ini juga biasanya disertai dengan blangkon atau peci sebagai penutup kepala. Sementara itu, busana pengantin perempuan terdiri dari baju kurung dengan kain sarung atau kain tenun yang disebut tikar Baju kurung ini sering kali dihiasi dengan hiasan sulaman yang indah dan motif-motif tradisional suku Dayak Kenyah."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView29"
+        android:layout_marginTop="340dp"
+        android:text="@string/share" />
+
+</RelativeLayout>
